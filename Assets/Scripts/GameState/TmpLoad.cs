@@ -17,7 +17,7 @@ public class TmpLoad : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+		//testcomment
 		if (loadLevel) {
 			
 			foxyMan.SendMessage ("LevelString", levelToLoadName);
